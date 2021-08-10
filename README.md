@@ -64,7 +64,7 @@ const initialState = [
   },
   {
     id: 3,
-    person: 'Elektra',
+    person: 'Jesse',
     order: {
       main: 'Salad Bowl',
       protein: 'Organic Tofu',
