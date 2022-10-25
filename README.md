@@ -25,9 +25,7 @@ Build a prototype of this short order receipts tracker.
 
 ## Requirements
 
-Follow the walkthrough and finish all parts. If you have extra time, finish the
-bonus as well.
-
+Follow the walkthrough and finish all parts. 
 ## Part 1: Sample Receipts
 
 You'll be rendering some sample receipts:
