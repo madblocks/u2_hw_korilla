@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-const initialState = [
+const receipts = [
   {
     id: 1,
-    person: 'Karolin',
+    person: 'Jeremy',
     order: {
       main: 'Burrito',
       protein: 'Organic Tofu',
@@ -18,7 +18,7 @@ const initialState = [
   },
   {
     id: 2,
-    person: 'Jerrica',
+    person: 'Tiffany',
     order: {
       main: 'Rice Bowl',
       protein: 'Ginger Soy Chix',
@@ -32,7 +32,7 @@ const initialState = [
   },
   {
     id: 3,
-    person: 'Matt',
+    person: 'Brittany',
     order: {
       main: 'Salad Bowl',
       protein: 'Organic Tofu',
