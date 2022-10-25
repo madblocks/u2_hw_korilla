@@ -50,7 +50,7 @@ const initialState = [
   },
   {
     id: 2,
-    person: 'Will',
+    person: 'Brittany',
     order: {
       main: 'Rice Bowl',
       protein: 'Ginger Chicken',
@@ -64,7 +64,7 @@ const initialState = [
   },
   {
     id: 3,
-    person: 'Jesse',
+    person: 'Tiffany',
     order: {
       main: 'Salad Bowl',
       protein: 'Organic Tofu',
@@ -114,16 +114,6 @@ the receipt disappears.
 
 Obviously we don't want to have to manually update the data to show that it is paid. Make a function that updates the paid property in state to be true when the receipt is clicked.
 
-## Bonus
-
-## Part 4: Searching for receipts
-
-Implement a search field that allows you to search by person. The search should
-automatically update as you type, hiding every receipt that doesn't match the
-name you're spelling out.
-
-Hint: Think about how the search will work. How do you make something happen
-while typing? What needs to happen? What values are you searching and comparing?
 
 ## Plagiarism
 
