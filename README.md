@@ -31,7 +31,7 @@ Follow the walkthrough and finish all parts.
 You'll be rendering some sample receipts:
 
 ```js
-const initialState = [
+const receipts = [
   {
     id: 1,
     person: 'Jeremy',
@@ -77,7 +77,6 @@ const initialState = [
 ];
 ```
 
-- Add receipts state to the App with the useState hook and initialize the state by passing useState the initialState array that is in the App.js file.
 
 Make a Receipt component that renders the following data from the first receipt:
 
@@ -91,10 +90,6 @@ Make a Receipt component that renders the following data from the first receipt:
   - cost
 
 **Optional:** render the toppings
-
-Add the next two receipts to state and make two more `Receipt` components so
-that you get a view like this. Some css has been implemented already for you,
-take a look at class names in the various css files.
 
 ![korilla receipts rendered Mark](https://i.imgur.com/27V4KW8.png)
 
