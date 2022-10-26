@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
+import Receipt from './components/Receipt'
 
-const receipts = [
+
+const _receipts = [
   {
     id: 1,
     person: 'Jeremy',
@@ -47,14 +49,27 @@ const receipts = [
 ];
 
 function App() {
+
+  const [receipts, setReceipts] = useState(_receipts)
+
   return (
-    <>
+    <div>
       <header>
         <h1 className="name">Korilla</h1>
       </header>
-      <main></main>
-    </>
-  );
+      <main className="receiptContainer">
+        <React.StrictMode>
+          {receipts.map((receipt) => {
+            if (!receipt.paid) {
+              return <Receipt key={receipt.id} receipt={receipt}/>
+            } else {
+              return null
+            }
+          })}
+        </React.StrictMode>
+      </main>
+    </div>
+  )
 }
 
 export default App;
